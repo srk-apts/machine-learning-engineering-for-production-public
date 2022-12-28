@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "course1"
+version = "0.1.0"
+description = ""
+authors = ["saurabh"]
+readme = "README.md"
+packages = [{include = "week1_ungraded_lab"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+cvlib = "^0.2.7"
+opencv-python-headless = "^4.6.0.66"
+pillow = "^9.3.0"
+uvicorn = "^0.20.0"
+python-multipart = "^0.0.5"
+fastapi = "^0.88.0"
+nest-asyncio = "^1.5.6"
+jupyterlab = "^3.5.2"
+tensorflow = "^2.11.0"
+pandas = "^1.5.2"
+numpy = "^1.24.0"
+seaborn = "^0.12.1"
+matplotlib = "^3.6.2"
+scipy = "^1.9.3"
+scikit-learn = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
